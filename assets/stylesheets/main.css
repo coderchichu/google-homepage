@@ -154,10 +154,44 @@ a:hover {
     box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
-.bottom-container {
+#bottom-container {
     font-size:13px;
     display:flex;
     flex-direction: column;
     position: absolute;
     bottom: 0;
+}
+
+#bot-bot-cont {
+    display:flex;
+    flex-direction: row;
+    border-top: 1px solid #dadce0;
+
+}
+
+#bot-left {
+    display:flex;
+    flex-direction: row;
+
+}
+
+#bot-right {
+    display:flex;
+    flex-direction: row;
+    margin-left:auto;
+
+}
+
+.grey-box {
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+    min-width:400px;
+    left: 0;
+    right:0;
+
+}
+
+.padding-grey{
+    padding-left: 27px;
 }
